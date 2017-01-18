@@ -5,3 +5,5 @@ dependencies:
 deploy:
   override:
     - echo $?
+fetch:
+  - curl --silent https://github.com/Shopify/shipit-engine
