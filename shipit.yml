@@ -1,0 +1,4 @@
+dependencies:
+  pre:
+    - mkdir tmp/
+    - cp -R /var/cache/ tmp/cache
