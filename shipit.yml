@@ -1,7 +1,8 @@
 dependencies:
   pre:
-    - mkdir tmp/
-    - cp -R /var/cache/ tmp/cache
+    - echo $?
+  override:
+    - echo $?
 deploy:
   override:
     - echo $?
