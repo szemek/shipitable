@@ -3,6 +3,8 @@ dependencies:
     - echo $?
   override:
     - echo $?
+  post:
+    - echo $?
 deploy:
   override:
     - echo $?
