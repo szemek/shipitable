@@ -1,0 +1,4 @@
+test:
+  override:
+    - ./run $CIRCLE_NODE_INDEX:
+        parallel: true
