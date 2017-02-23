@@ -1,0 +1,8 @@
+language: ruby
+rvm:
+  - 2.2.0
+env:
+  - TEST_SUITE=1
+  - TEST_SUITE=2
+script:
+  - ./run $TEST_SUITE
