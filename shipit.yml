@@ -1,12 +1,5 @@
 dependencies:
-  pre:
-    - echo $?
   override:
-    - echo $?
-  post:
-    - echo $?
-deploy:
-  override:
-    - echo $?
+    - env
 fetch:
   - curl --silent https://github.com/Shopify/shipit-engine
