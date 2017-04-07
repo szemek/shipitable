@@ -8,7 +8,7 @@
 # server "db.example.com", user: "deploy", roles: %w{db}
 server '127.0.0.1'
 
-before 'git:wrapper', :env_check
+# before 'git:wrapper', :env_check
 
 # task :env_check do
 #   ENV.each do |key, value|
