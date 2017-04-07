@@ -10,12 +10,12 @@ server '127.0.0.1'
 
 before 'git:wrapper', :env_check
 
-task :env_check do
-  ENV.each do |key, value|
-    puts "#{key}=#{value}"
-  end
-  exit 0
-end
+# task :env_check do
+#   ENV.each do |key, value|
+#     puts "#{key}=#{value}"
+#   end
+#   exit 0
+# end
 
 
 # role-based syntax
