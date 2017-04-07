@@ -1,8 +1,3 @@
 dependencies:
-  override:
+  pre:
     - env
-deploy:
-  override:
-    - bundle exec cap $ENVIRONMENT deploy
-fetch:
-  - curl --silent https://github.com/Shopify/shipit-engine
