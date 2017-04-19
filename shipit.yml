@@ -11,4 +11,5 @@ review:
 
 rollback:
   override:
+    - bundle exec ruby -v
     - bundle exec cap --version
