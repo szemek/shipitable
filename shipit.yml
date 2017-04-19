@@ -4,7 +4,7 @@ dependencies:
 
 deploy:
   override:
-    - bundle exec cap --version
+    - bundle exec ruby -v
 
 review:
   checklist: []
