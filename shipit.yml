@@ -11,4 +11,4 @@ review:
 
 rollback:
   override:
-    - cap $ENVIRONMENT autoscale:rollback
+    - bundle exec cap --version
