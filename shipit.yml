@@ -4,6 +4,7 @@ dependencies:
 
 deploy:
   override:
+    - bundle exec which ruby
     - bundle exec ruby -v
 
 review:
@@ -11,5 +12,6 @@ review:
 
 rollback:
   override:
-    - bundle exec ruby -v
+    - bundle exec which ruby
+    - bundle exec which cap
     - bundle exec cap --version
