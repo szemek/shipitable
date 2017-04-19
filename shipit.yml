@@ -2,6 +2,7 @@ deploy:
   override:
     - bundle exec which ruby
     - bundle exec ruby -v
+    - bundle exec cap --version
 
 review:
   checklist: []
