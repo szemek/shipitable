@@ -1,5 +1,14 @@
 dependencies:
   pre:
     - env
+
+deploy:
+  override:
+    - bundle exec cap --version
+
 review:
   checklist: []
+
+rollback:
+  override:
+    - cap $ENVIRONMENT autoscale:rollback
