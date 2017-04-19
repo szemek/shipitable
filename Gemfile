@@ -1,3 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'capistrano'
+gem 'capistrano', '~> 3.8'
+gem 'capistrano-bundler', '~> 1.2'
