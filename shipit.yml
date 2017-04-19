@@ -1,7 +1,3 @@
-dependencies:
-  pre:
-    - env
-
 deploy:
   override:
     - bundle exec which ruby
